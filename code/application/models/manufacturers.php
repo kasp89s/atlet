@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Новости * */class Manufacturers_Model extends Model  {	public $table_name = 'catalog_manufacturer';}

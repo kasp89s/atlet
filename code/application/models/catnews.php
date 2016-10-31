@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Категории новостей * */class Catnews_Model extends Model  {	public $table_name = 'news_cat';}

@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Интернет-приемная. Обращения * */class Discount_Model extends Model  {	public $table_name = 'discount_coupons';}

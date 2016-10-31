@@ -1,0 +1,1 @@
+<?php/** * * */class Cart_Model extends Model  {	public $table_name = 'catalog_cart';}

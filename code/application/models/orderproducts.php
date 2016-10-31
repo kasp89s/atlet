@@ -1,0 +1,1 @@
+<?php/** * Модель данных. * */class OrderProducts_Model extends Model  {	public $table_name = 'order_products';}

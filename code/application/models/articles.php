@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Новости * */class Articles_Model extends Model  {	public $table_name = 'articles';}

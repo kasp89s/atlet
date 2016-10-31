@@ -1,0 +1,1 @@
+<?php/** * Модель данных. ACL. Все возможные права доступа * */class AuthActions_Model extends Model  {	public $table_name = 'auth_actions';}

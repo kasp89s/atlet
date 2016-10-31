@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Категории Интернет-приемной главы * */class Catorder_Model extends Model  {	public $table_name = 'order_cat';}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orders>
+<order id="315">
+ <c_name>admin</c_name>
+ <c_contacts>admin</c_contacts>
+ <c_address>admin</c_address>
+ <d_date>2014-09-30</d_date>
+ <b_time>11:13</b_time>
+ <e_time>11:13</e_time>
+ <incl_deliv_sum>0</incl_deliv_sum>
+ <type_d>2</type_d>
+ <e_mail></e_mail>
+ <descriptions></descriptions>
+ <items>
+ <item>
+ <id>2209</id>
+ <name>Animal Pump</name>
+ <quantity>1</quantity>
+ <price>2090</price>
+ </item>
+ </items>
+</order>
+<order id="316">
+ <c_name>admin</c_name>
+ <c_contacts>admin</c_contacts>
+ <c_address>admin</c_address>
+ <d_date>2014-09-30</d_date>
+ <b_time>11:23</b_time>
+ <e_time>11:23</e_time>
+ <incl_deliv_sum>0</incl_deliv_sum>
+ <type_d>2</type_d>
+ <e_mail></e_mail>
+ <descriptions></descriptions>
+ <items>
+ <item>
+ <id>283</id>
+ <name>DHEA 50 mg</name>
+ <quantity>1</quantity>
+ <price>490</price>
+ </item>
+ </items>
+</order>
+<order id="317">
+ <c_name>Екатерина</c_name>
+ <c_contacts>89057007484</c_contacts>
+ <c_address>Москва, улица добролюбова, д 14 А</c_address>
+ <d_date>2014-09-30</d_date>
+ <b_time>15:01</b_time>
+ <e_time>15:01</e_time>
+ <incl_deliv_sum>0</incl_deliv_sum>
+ <type_d>2</type_d>
+ <e_mail>zatsepina@ech-msp.ru</e_mail>
+ <descriptions>Позвонить за час до доставки по указанному адресу.</descriptions>
+ <items>
+ <item>
+ <id>2348</id>
+ <name>NO-Xplode Igniter Shot</name>
+ <quantity>10</quantity>
+ <price>90</price>
+ <chars>
+ <char name="Вкус" val="фруктовый пунш" />
+ </chars>
+ </item>
+ <item>
+ <id>2348</id>
+ <name>NO-Xplode Igniter Shot</name>
+ <quantity>10</quantity>
+ <price>90</price>
+ <chars>
+ <char name="Вкус" val="зеленое яблоко" />
+ </chars>
+ </item>
+ <item>
+ <id>2348</id>
+ <name>NO-Xplode Igniter Shot</name>
+ <quantity>10</quantity>
+ <price>90</price>
+ <chars>
+ <char name="Вкус" val="черника" />
+ </chars>
+ </item>
+ </items>
+</order>
+<order id="314">
+ <c_name>Александра</c_name>
+ <c_contacts>8-903-209-68-22</c_contacts>
+ <c_address>Москва, Кронштадтский б-р д.7А</c_address>
+ <d_date>2014-09-30</d_date>
+ <b_time>10:43</b_time>
+ <e_time>10:43</e_time>
+ <incl_deliv_sum>0</incl_deliv_sum>
+ <type_d>2</type_d>
+ <e_mail>cartel@bk.ru</e_mail>
+ <descriptions>доставка c 10-00 до 18-00</descriptions>
+ <items>
+ <item>
+ <id>1420</id>
+ <name>Dyma-Burn Xtreme срок до 04.12</name>
+ <quantity>1</quantity>
+ <price>990</price>
+ </item>
+ </items>
+</order>
+<order id="313">
+ <c_name>Александра</c_name>
+ <c_contacts>89261526211</c_contacts>
+ <c_address>Москва,Скорняжный переулок 5/2</c_address>
+ <d_date>2014-09-30</d_date>
+ <b_time>02:24</b_time>
+ <e_time>02:24</e_time>
+ <incl_deliv_sum>0</incl_deliv_sum>
+ <type_d>2</type_d>
+ <e_mail></e_mail>
+ <descriptions></descriptions>
+ <items>
+ <item>
+ <id>1455</id>
+ <name>Oxyelite Pro New Formula</name>
+ <quantity>1</quantity>
+ <price>2190</price>
+ </item>
+ </items>
+</order>
+</orders>

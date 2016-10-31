@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Полезные ссылки * */class OrderPayments_Model extends Model  {	public $table_name = 'catalog_cart_payments';}

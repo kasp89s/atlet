@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Категории Интернет-приемной главы * */class Catcallback_Model extends Model  {	public $table_name = 'callback_cat';}

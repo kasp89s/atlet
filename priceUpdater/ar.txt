@@ -1,0 +1,17 @@
+array( 
+'Betancourt' => '',
+'Body First' => '',
+'Body Strong' => '',
+'Easy body' => '',
+'Gat' => '',
+'Macrolife naturals' => '',
+'MRI' => '',
+'Natrol' => '',
+'Nutriforce' => '',
+'Primaforce' => '',
+'Prolab' => '',
+'QNT' => '',
+'Red Star Labs' => '',
+'Scivation' => '',
+'Usplabs' => '',
+); 

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{
+    *zoom: 1;}
+
+/* display: inline-block for ie */
+.basket, .consultant, .icon, .btn, .top-menu menu li a, .button, .catalog article, .brand img, .top-nav ul li, span.check, .choice label, .tabs li, .rewiev textarea, .off, .niceRadio, .order-product label, .payment .r-ord img {
+    zoom:1; /* для ие */
+    *display:inline; /* для ие */
+}
+.top-nav ul li {*padding-right:8px}
+.button {
+    line-height:34px;
+}
+.btn{-pie-background: linear-gradient(#434242, #070707);}
+.btn:hover, .flexslider .btn{-pie-background: linear-gradient(#f8bb49, #f7941d);}
+.flexslider .btn:hover, .search input[type="submit"]{-pie-background: linear-gradient(#f7941d, #f8bb49);}
+.btn.bel{-pie-background: linear-gradient(#f8bb49, #f7941d);}
+.btn.bel:hover, .button:hover{-pie-background: linear-gradient(#634b1d, #633b0c);}
+.footer{-pie-background: linear-gradient(#131313, #2c2c2c);}
+.top-menu{-pie-background: linear-gradient(#444444, #1a1918);}
+.selectBox-dropdown-menu{background:#ffffff;}

@@ -1,0 +1,1 @@
+<?php/** * Модель данных. Полезные ссылки * */class Links_Model extends Model  {	public $table_name = 'links';}

@@ -1,0 +1,7 @@
+@charset "utf-8";
+.btn{
+    padding:8px 16px;
+}
+.bot-card input[type="submit"] {padding:12px 16px;}
+select, .selectBox {line-height:36px;}
+.niceRadio {top:-1px}

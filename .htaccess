@@ -1,0 +1,35 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Installation directory
+RewriteBase /
+
+# Protect application and system files from being viewed
+#RewriteRule ^(application|modules|system) - [F,L]
+
+RewriteRule ^(css/|i/|js/|upload/|tools/|libs/|userfiles/) - [L]
+RewriteRule ^robots.txt - [L]
+
+# Allow any files or directories that exist to be displayed directly
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule ^sitemap.xml(.*)$ index.php?kohana_uri=/xmlmap [QSA]
+RewriteRule ^catalog.yml(.*)$ index.php?kohana_uri=/yandex [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L]
+
+
+
+<IfModule mod_php5.c>
+php_value short_open_tag 1
+php_value magic_quotes_gpc 0
+php_value register_globals 0
+php_value session.auto_start 0
+php_value upload_max_filesize 20M
+php_value post_max_size 100M
+</IfModule>
